@@ -1,0 +1,63 @@
+body {
+  background-color: lightgray;
+}
+.container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.container h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.container label {
+  font-size: 2.2rem;
+}
+.container input {
+  width: 250px;
+  height: 20px;
+  font-size: 1.5rem;
+  padding: 5px;
+}
+.container button {
+  padding: 8px;
+  margin: 10px;
+  font-size: 1.2rem;
+  background-color: beige;
+  cursor: pointer;
+  color: black;
+  transition: 0.1s;
+}
+.container button:hover {
+  letter-spacing: 2.5px;
+}
+.footer {
+  display: block;
+  position: fixed;
+  bottom: 5%;
+  width: 100%;
+  text-align: center;
+}
+.card {
+  width: 30%;
+  margin: 50px auto;
+  box-shadow: 20px 20px 50px grey;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.card-top img {
+  width: 250px;
+  margin-top: -40px;
+}
+.card-content h2 {
+  margin-top: -30px;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  line-height: 1.2rem;
+}
+.card-content p {
+  padding: 10px;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  line-height: 1.2rem;
+}
